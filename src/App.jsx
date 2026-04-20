@@ -1127,7 +1127,7 @@ function BeliefShift({ part = "all" }) {
             }}>
               Every muscle contraction, every thought, every heartbeat — powered by ATP molecule.
               <br /><br />
-              Creatine is a naturally occurring substance that recharges your cells' ATP — your body's energy building block.
+              Creatine is a natural substance that helps recharge ATP in your cells. ATP is the energy building block of your body.
             </p>
           </FadeIn>
 
@@ -1251,7 +1251,7 @@ function BeliefShift({ part = "all" }) {
                 marginTop: 14,
                 fontStyle: "italic",
               }}>
-                Watch the cycle: Creatine donates a phosphate to ADP, creating ATP — then ATP releases energy and becomes ADP again.
+                Watch the cycle: Creatine gives a phosphate to ADP, forming ATP. Then, ATP releases energy and turns back into ADP.
               </p>
             </div>
           </FadeIn>
@@ -1341,6 +1341,29 @@ function BeliefShift({ part = "all" }) {
           }}>
             *Based on creatine monohydrate research. Cognitive evidence is emerging. Results strongest when combined with resistance training.
           </p>
+
+          {/* CTA under stat cards */}
+          <FadeIn delay={0.3}>
+            <button style={{
+              background: "linear-gradient(135deg, #C67B3C, #E8A85C)",
+              color: "#1A1410",
+              border: "none",
+              padding: "14px 0",
+              borderRadius: 10,
+              fontWeight: 800,
+              fontSize: 14,
+              cursor: "pointer",
+              fontFamily: "'DM Sans', sans-serif",
+              letterSpacing: 1.5,
+              textTransform: "uppercase",
+              width: "85%",
+              maxWidth: 340,
+              marginTop: 24,
+              boxShadow: "0 4px 16px rgba(198,123,60,0.3)",
+            }}>
+              Start Frelo — Risk Free
+            </button>
+          </FadeIn>
         </div>
       </div>
 
@@ -1578,6 +1601,29 @@ function BeliefShift({ part = "all" }) {
             }}>
               *Based on creatine monohydrate research. Cognitive evidence is emerging. Results strongest when combined with resistance training.
             </p>
+          </FadeIn>
+
+          {/* CTA at bottom of 99.9% section */}
+          <FadeIn delay={0.3}>
+            <button style={{
+              background: "linear-gradient(135deg, #C67B3C, #E8A85C)",
+              color: "#1A1410",
+              border: "none",
+              padding: "14px 0",
+              borderRadius: 10,
+              fontWeight: 800,
+              fontSize: 14,
+              cursor: "pointer",
+              fontFamily: "'DM Sans', sans-serif",
+              letterSpacing: 1.5,
+              textTransform: "uppercase",
+              width: "85%",
+              maxWidth: 340,
+              marginTop: 24,
+              boxShadow: "0 4px 16px rgba(198,123,60,0.3)",
+            }}>
+              Start Frelo — Risk Free
+            </button>
           </FadeIn>
         </div>
       </div>
@@ -2038,7 +2084,7 @@ function Timeline() {
       title: "Real Progress",
       textSide: "right",
       items: [
-        { bold: "Steady Strength:", text: "Grocery bags, stairs, getting up from chairs — the struggle starts to ease" },
+        { bold: "Steady Strength:", text: "Carrying grocery bags, climbing stairs, or getting up from chairs becomes easier" },
         { bold: "Better Recovery:", text: "Your body stops punishing you for being active" },
         { bold: "Confidence Returns:", text: "You catch yourself moving without hesitating or bracing first" },
         { bold: "Mental Sharpness:", text: "Words come easier, focus holds longer*" },
@@ -2049,7 +2095,7 @@ function Timeline() {
       time: "2 Months",
       emoji: "💪",
       title: "Finding Your Foundation",
-      textSide: "right",
+      textSide: "left",
       items: [
         { bold: "Functional Power:", text: "Your muscles are rebuilding the rapid-energy reserves aging depleted" },
         { bold: "Independence Reinforced:", text: "You stop avoiding things you used to do without thinking" },
@@ -2519,26 +2565,6 @@ function VideoTestimonials() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={0.25}>
-          <button style={{
-            background: "linear-gradient(135deg, #C67B3C, #E8A85C)",
-            color: "#1A1410",
-            border: "none",
-            padding: "14px 0",
-            borderRadius: 10,
-            fontWeight: 800,
-            fontSize: 14,
-            cursor: "pointer",
-            fontFamily: "'DM Sans', sans-serif",
-            letterSpacing: 1.5,
-            textTransform: "uppercase",
-            width: "85%",
-            maxWidth: 340,
-            boxShadow: "0 4px 16px rgba(198,123,60,0.3)",
-          }}>
-            TRY FRELO — RISK FREE
-          </button>
-        </FadeIn>
       </div>
     </section>
   );
@@ -3801,8 +3827,8 @@ export default function FreloPDP() {
       <Testimonials />
       <Guarantee />
       <FAQ />
-      <ConsistencySection />
-      <BenefitsStack />
+      {/* <ConsistencySection /> */}
+      {/* <BenefitsStack /> */}
       <FinalCTA />
       <StickyCTA />
     </div>
