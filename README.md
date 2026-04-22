@@ -242,25 +242,6 @@ FRELO
 
 Product Image
 
-View Nutrition Label
-
-✓
-
-Build Real Muscle
-
-✓
-
-Boost Your Focus
-
-✓
-
-Speed Up Recovery
-
-✓
-
-Supports Gut Health
-
-✓
 
 Tastes Like Chocolate
 
