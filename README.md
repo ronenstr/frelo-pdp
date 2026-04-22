@@ -245,10 +245,7 @@ Product Image
 
 Tastes Like Chocolate
 
-Your body will thank you every morning.
-
-Under 2$ a day, for a better you.
-
+Less than $2 a day For The easiest morning habit to stay strong.
 
 
 MOST POPULAR
